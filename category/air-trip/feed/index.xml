@@ -9,8 +9,8 @@
 
 <channel>
 	<title>air trip &#8211; J V TOURISM</title>
-	<atom:link href="http://jvtravels.github.io/category/air-trip/feed/" rel="self" type="application/rss+xml" />
-	<link>http://jvtravels.github.io</link>
+	<atom:link href="https://jvtravels.github.io/category/air-trip/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jvtravels.github.io</link>
 	<description>Your Comfort Our Pride......</description>
 	<lastBuildDate>Sat, 24 Nov 2018 09:38:04 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,21 +19,21 @@
 	<generator>https://wordpress.org/?v=4.9.8</generator>
 
 <image>
-	<url>http://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg</url>
+	<url>https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg</url>
 	<title>air trip &#8211; J V TOURISM</title>
-	<link>http://jvtravels.github.io</link>
+	<link>https://jvtravels.github.io</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>5 Curious About Air Trip Questions Answered</title>
-		<link>http://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/</link>
-		<comments>http://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/#respond</comments>
+		<link>https://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/</link>
+		<comments>https://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/#respond</comments>
 		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
 				<category><![CDATA[air trip]]></category>
 
-		<guid isPermaLink="false">http://jvtravels.github.io/?p=160</guid>
+		<guid isPermaLink="false">https://jvtravels.github.io/?p=160</guid>
 		<description><![CDATA[Do you often find yourself neck-deep in curiosity every time you board a flight? What kind of lives do the flight attendants lead? What happens if they fatten up? And why are they insisting that we switch off our phones during take-off and landing? This and much more—we’ve attempted to [&#8230;]]]></description>
 				<content:encoded><![CDATA[<p>Do you often find yourself neck-deep in curiosity every time you board a flight? What kind of lives do the flight attendants lead? What happens if they fatten up? And why are they insisting that we switch off our phones during take-off and landing? This and much more—we’ve attempted to answer your most whacky flight related questions.</p>
 <h2>Do Air Hostesses Sleep at all on a Flight?</h2>
@@ -44,7 +44,7 @@
 <h2>Do Pilots Tell Us the Whole Truth during Emergencies?</h2>
 <p>More often than not, pilots do not tell us the exact situation during emergencies. If the visibility has suddenly become zero, the pilots would say, “We are experiencing some fog in this area, which is likely to clear up soon.” Or else if one of the engines suddenly stops working, you will hear something like, “One of our engines is not indicating properly, but nothing that cannot be corrected.” Most issues are often dealt with by the pilots and they do not believe in creating unnecessary panic among the passengers. They continue to give them assurance till things do not go out of hand, which is when they begin to bark commands like, “Brace yourself for an emergency landing because the plane is on fire.”</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/feed/</wfw:commentRss>
+			<wfw:commentRss>https://jvtravels.github.io/do-air-hostesses-sleep-at-all-on-a-flight-5-such-curious-questions-answered/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
