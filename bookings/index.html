@@ -36,7 +36,6 @@ img.emoji {
 <link rel='stylesheet' id='sydney-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500%2C500italic%2C600%7CRaleway%3A500%2C600%2C700' type='text/css' media='all' />
 <link rel='stylesheet' id='sydney-style-css'  href='https://jvtravels.github.io/wp-content/themes/sydney/style.css?ver=20180710' type='text/css' media='all' />
 <style id='sydney-style-inline-css' type='text/css'>
-.site-header { background-color:rgba(0,0,0,0.9);}
 .site-title { font-size:32px; }
 .site-description { font-size:16px; }
 #mainnav ul li a { font-size:20px; }
@@ -55,7 +54,7 @@ body { font-size:16px; }
 @media only screen and (max-width: 1024px) { .site-header { background-color:#000000;}}
 .site-title a, .site-title a:hover { color:#ffffff}
 .site-description { color:#ffffff}
-#mainnav ul li a, #mainnav ul li::before { color:#0a0a0a}
+#mainnav ul li a, #mainnav ul li::before { color:#ffffff}
 #mainnav .sub-menu li a { color:#ffffff}
 #mainnav .sub-menu li a { background:#1c1c1c}
 .text-slider .maintitle, .text-slider .subtitle { color:#ffffff}
@@ -105,7 +104,7 @@ body { color:#47425d}
 <link rel='stylesheet' id='font-awesome-css'  href='https://jvtravels.github.io/wp-content/plugins/menu-icons/vendor/kucrut/icon-picker/css/types/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-animations-css'  href='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='https://jvtravels.github.io/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-171-css'  href='https://jvtravels.github.io/wp-content/uploads/elementor/css/post-171.css?ver=1543080513' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-171-css'  href='https://jvtravels.github.io/wp-content/uploads/elementor/css/post-171.css?ver=1543145820' type='text/css' media='all' />
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='https://jvtravels.github.io/wp-json/' />
@@ -117,7 +116,22 @@ body { color:#47425d}
 <link rel="alternate" type="application/json+oembed" href="https://jvtravels.github.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjvtravels.github.io%2Fbookings%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://jvtravels.github.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjvtravels.github.io%2Fbookings%2F&#038;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-		<link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg" sizes="32x32" />
+			<style type="text/css">
+		.header-image {
+			background-image: url(https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-adventure-blur-cartography-408503.jpg);
+			display: block;
+		}
+		@media only screen and (max-width: 1024px) {
+			.header-inner {
+				display: block;
+			}
+			.header-image {
+				background-image: none;
+				height: auto !important;
+			}		
+		}
+	</style>
+	<link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-192x192.jpg" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-180x180.jpg" />
 <meta name="msapplication-TileImage" content="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-270x270.jpg" />
@@ -150,9 +164,6 @@ margin-bottom: -50px;
 	
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-		
-	<div class="header-clone"></div>
 
 	
 	<header id="masthead" class="site-header" role="banner">
@@ -190,7 +201,7 @@ margin-bottom: -50px;
 	
 	<div class="sydney-hero-area">
 				<div class="header-image">
-						<img class="header-inner" src="" width="1920" alt="J V TOURISM" title="J V TOURISM">
+						<img class="header-inner" src="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-adventure-blur-cartography-408503.jpg" width="1920" alt="J V TOURISM" title="J V TOURISM">
 		</div>
 		
 			</div>
@@ -252,6 +263,14 @@ margin-bottom: -50px;
 		</div>
 				</div>
 				</div>
+				<div data-id="41c329b" class="elementor-element elementor-element-41c329b animated fadeIn elementor-invisible elementor-widget elementor-widget-image-carousel" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:4000,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;}" data-element_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper elementor-slick-slider" dir="ltr">
+			<div class="elementor-image-carousel slick-arrows-inside slick-dots-outside slick-image-stretch">
+				<div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/chair-cutlery-diner-941861.jpg" alt="chair-cutlery-diner-941861" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/architecture-beach-building-258154.jpg" alt="architecture-beach-building-258154" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/architecture-building-casino-812628.jpg" alt="architecture-building-casino-812628" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/architecture-carpet-chandeliers-573552.jpg" alt="architecture-carpet-chandeliers-573552" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/beach-chairs-clouds-hotel-338504.jpg" alt="beach-chairs-clouds-hotel-338504" /></figure></div>			</div>
+		</div>
+				</div>
+				</div>
 						</div>
 			</div>
 		</div>
@@ -275,7 +294,7 @@ margin-bottom: -50px;
 		</div>
 				</div>
 				</div>
-				<div data-id="284fb7e" class="elementor-element elementor-element-284fb7e elementor-button-info elementor-align-center elementor-widget elementor-widget-button" data-element_type="button.default">
+				<div data-id="c76f335" class="elementor-element elementor-element-c76f335 elementor-button-info elementor-align-center elementor-widget elementor-widget-button" data-element_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
 			<a href="https://jvtravels.github.io/flight/" class="elementor-button-link elementor-button elementor-size-md elementor-animation-grow" role="button">
@@ -286,6 +305,14 @@ margin-bottom: -50px;
 						<span class="elementor-button-text">Check Flights</span>
 		</span>
 					</a>
+		</div>
+				</div>
+				</div>
+				<div data-id="50cbb82" class="elementor-element elementor-element-50cbb82 animated fadeIn elementor-invisible elementor-widget elementor-widget-image-carousel" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;autoplay_speed&quot;:4000,&quot;navigation&quot;:&quot;both&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;}" data-element_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper elementor-slick-slider" dir="ltr">
+			<div class="elementor-image-carousel slick-arrows-inside slick-dots-outside slick-image-stretch">
+				<div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/aeroplane-aircraft-airline-588016.jpg" alt="flights" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/aeroplane-aircraft-airplane-790638.jpg" alt="aeroplane-aircraft-airplane-790638" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/airbus-aircraft-airplane-587063.jpg" alt="airbus-aircraft-airplane-587063" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/aircraft-aircraft-wing-airplane-1522168.jpg" alt="aircraft-aircraft-wing-airplane-1522168" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/aircraft-airplane-airport-714045.jpg" alt="aircraft-airplane-airport-714045" /></figure></div>			</div>
 		</div>
 				</div>
 				</div>
@@ -323,6 +350,14 @@ margin-bottom: -50px;
 						<span class="elementor-button-text">Check Trains</span>
 		</span>
 					</a>
+		</div>
+				</div>
+				</div>
+				<div data-id="51e54ea" class="elementor-element elementor-element-51e54ea animated fadeIn elementor-invisible elementor-widget elementor-widget-image-carousel" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;autoplay_speed&quot;:4000,&quot;navigation&quot;:&quot;both&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;}" data-element_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper elementor-slick-slider" dir="ltr">
+			<div class="elementor-image-carousel slick-arrows-inside slick-dots-outside slick-image-stretch">
+				<div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/aman-bhargava-459795-unsplash.jpg" alt="trains" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/black-and-white-carriage-classic-258393.jpg" alt="black-and-white-carriage-classic-258393" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/bridge-cables-daylight-633845.jpg" alt="bridge-cables-daylight-633845" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/sai-kiran-anagani-63661-unsplash.jpg" alt="sai-kiran-anagani-63661-unsplash" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/daylight-engine-grass-796634.jpg" alt="daylight-engine-grass-796634" /></figure></div>			</div>
 		</div>
 				</div>
 				</div>
@@ -417,6 +452,7 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/jvtravels.github.io\/wp-json\/cont
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/themes/sydney/js/main.min.js?ver=20180716'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/themes/sydney/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/slick/slick.min.js?ver=1.8.1'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.4.1'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>

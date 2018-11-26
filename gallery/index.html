@@ -36,7 +36,6 @@ img.emoji {
 <link rel='stylesheet' id='sydney-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500%2C500italic%2C600%7CRaleway%3A500%2C600%2C700' type='text/css' media='all' />
 <link rel='stylesheet' id='sydney-style-css'  href='https://jvtravels.github.io/wp-content/themes/sydney/style.css?ver=20180710' type='text/css' media='all' />
 <style id='sydney-style-inline-css' type='text/css'>
-.site-header { background-color:rgba(0,0,0,0.9);}
 .site-title { font-size:32px; }
 .site-description { font-size:16px; }
 #mainnav ul li a { font-size:20px; }
@@ -55,7 +54,7 @@ body { font-size:16px; }
 @media only screen and (max-width: 1024px) { .site-header { background-color:#000000;}}
 .site-title a, .site-title a:hover { color:#ffffff}
 .site-description { color:#ffffff}
-#mainnav ul li a, #mainnav ul li::before { color:#0a0a0a}
+#mainnav ul li a, #mainnav ul li::before { color:#ffffff}
 #mainnav .sub-menu li a { color:#ffffff}
 #mainnav .sub-menu li a { background:#1c1c1c}
 .text-slider .maintitle, .text-slider .subtitle { color:#ffffff}
@@ -105,7 +104,7 @@ body { color:#47425d}
 <link rel='stylesheet' id='font-awesome-css'  href='https://jvtravels.github.io/wp-content/plugins/menu-icons/vendor/kucrut/icon-picker/css/types/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-animations-css'  href='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='https://jvtravels.github.io/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-125-css'  href='https://jvtravels.github.io/wp-content/uploads/elementor/css/post-125.css?ver=1543058613' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-125-css'  href='https://jvtravels.github.io/wp-content/uploads/elementor/css/post-125.css?ver=1543147296' type='text/css' media='all' />
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='https://jvtravels.github.io/wp-json/' />
@@ -117,7 +116,22 @@ body { color:#47425d}
 <link rel="alternate" type="application/json+oembed" href="https://jvtravels.github.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjvtravels.github.io%2Fgallery%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://jvtravels.github.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjvtravels.github.io%2Fgallery%2F&#038;format=xml" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-		<link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg" sizes="32x32" />
+			<style type="text/css">
+		.header-image {
+			background-image: url(https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-adventure-blur-cartography-408503.jpg);
+			display: block;
+		}
+		@media only screen and (max-width: 1024px) {
+			.header-inner {
+				display: block;
+			}
+			.header-image {
+				background-image: none;
+				height: auto !important;
+			}		
+		}
+	</style>
+	<link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-192x192.jpg" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-180x180.jpg" />
 <meta name="msapplication-TileImage" content="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-Untitled-design-1-270x270.jpg" />
@@ -150,9 +164,6 @@ margin-bottom: -50px;
 	
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-		
-	<div class="header-clone"></div>
 
 	
 	<header id="masthead" class="site-header" role="banner">
@@ -190,7 +201,7 @@ margin-bottom: -50px;
 	
 	<div class="sydney-hero-area">
 				<div class="header-image">
-						<img class="header-inner" src="" width="1920" alt="J V TOURISM" title="J V TOURISM">
+						<img class="header-inner" src="https://jvtravels.github.io/wp-content/uploads/2018/11/cropped-adventure-blur-cartography-408503.jpg" width="1920" alt="J V TOURISM" title="J V TOURISM">
 		</div>
 		
 			</div>
@@ -274,16 +285,8 @@ margin-bottom: -50px;
 						<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
 				<div data-id="980023b" class="elementor-element elementor-element-980023b elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
+			<div class="elementor-column-wrap">
 					<div class="elementor-widget-wrap">
-				<div data-id="891332e" class="elementor-element elementor-element-891332e elementor-widget elementor-widget-image-carousel" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;direction&quot;:&quot;ltr&quot;}" data-element_type="image-carousel.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-image-carousel-wrapper elementor-slick-slider" dir="ltr">
-			<div class="elementor-image-carousel slick-arrows-inside slick-dots-outside slick-image-stretch">
-				<div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/architecture-clouds-daylight-1423580.jpg" alt="architecture-clouds-daylight-1423580" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/J-V.jpg" alt="J V logo" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/Colosseum_Famous_Tourist_Place_in_Rome_Italy_4K_Wallpaper.jpg" alt="www.hdnicewallpapers.com" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/wp2115296-7-wonders-of-the-world-wallpapers.jpg" alt="wp2115296-7-wonders-of-the-world-wallpapers" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/wp2115242-7-wonders-of-the-world-wallpapers.jpg" alt="wp2115242-7-wonders-of-the-world-wallpapers" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/wp1921813-7-wonders-of-the-world-wallpapers.jpg" alt="wp1921813-7-wonders-of-the-world-wallpapers" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/imageedit_3_5281623985.png" alt="imageedit_3_5281623985" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/J-V-1.jpg" alt="J V (1)" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/atlas-close-up-dark-592753.jpg" alt="atlas-close-up-dark-592753" /></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="https://jvtravels.github.io/wp-content/uploads/2018/11/Untitled-design.jpg" alt="ICON" /></figure></div>			</div>
-		</div>
-				</div>
-				</div>
 						</div>
 			</div>
 		</div>
@@ -375,7 +378,6 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/jvtravels.github.io\/wp-json\/cont
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/themes/sydney/js/main.min.js?ver=20180716'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/themes/sydney/js/skip-link-focus-fix.js?ver=20130115'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
-<script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/slick/slick.min.js?ver=1.8.1'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.4.1'></script>
 <script type='text/javascript' src='https://jvtravels.github.io/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
